@@ -1,0 +1,196 @@
+.indicators {
+  bottom: 0;
+  top: 0;
+  left: 80%;
+  margin-right: 5%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.overlay .txt {
+  margin-top: 20%;
+}
+
+.navbar {
+  z-index: 4;
+}
+
+.indicators [data-bs-target] {
+  width: 8px;
+  height: 6px;
+}
+.background {
+  background-image: url(roomm.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.layout {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 100px;
+  width: 100%;
+}
+.parent {
+  overflow: hidden;
+}
+.child {
+  top: 100%;
+  margin: 0;
+  left: 0;
+}
+.parent:hover .child {
+  transition: 1s;
+  top: 0;
+}
+.child2 {
+  top: 82%;
+  margin: 0;
+  padding: 0;
+}
+
+.parent2:hover .child2 {
+  transition: 1s;
+  top: 35%;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    padding: 50px;
+  }
+
+  .parent {
+    margin-bottom: 20px;
+  }
+  .parent .child {
+    padding: 30px;
+  }
+
+  .child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .layout {
+    padding: 30px;
+  }
+
+  .parent {
+    padding: 25px;
+  }
+
+  .child {
+    padding: 25px;
+  }
+}
+
+.child3 {
+  top: 82%;
+  margin: 0;
+  padding: 0;
+}
+.parent2:hover .child3 {
+  transition: 1s;
+  top: 35%;
+}
+
+.hight {
+  height: 100vh;
+}
+
+.hights {
+  height: 55vh;
+}
+
+.text1 p {
+  margin: 0;
+}
+.text1 h2 {
+  margin: 0;
+}
+.text1 {
+  color: white;
+  background-color: rgba(34, 84, 248, 0.916);
+  position: absolute;
+  bottom: 40px;
+  scale: 0;
+  padding-left: 4px;
+  padding-bottom: 3px;
+}
+
+.contents2:hover .text1 {
+  scale: 1;
+  transition: 0.8s ease-in-out;
+  width: 80%;
+  left: 25px;
+}
+
+.content3 {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.content3 img {
+  width: 100%;
+}
+.content3:hover img {
+  transform: scale(1.5) rotate(10deg);
+  transition: 1.5s ease;
+}
+
+.icons2 {
+  background-color: black;
+}
+.content3:hover .icons2 {
+  background-color: blue;
+}
+
+.line {
+  width: 25%;
+}
+
+.content3:hover .line {
+  width: 75%;
+  transition: 0.7s;
+}
+
+@media (max-width: 767px) {
+  .content3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.borderr {
+  width: 75%;
+}
+.parent2:hover .borderr {
+  width: 0;
+}
+
+.bottom_border {
+  width: 25%;
+  border-bottom: 1px solid rgb(46, 32, 232);
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.btn-group {
+  margin-left: 0;
+}
+
+@media (max-width: 767px) {
+  .btn-group {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.hover:hover {
+  background-color: blue;
+  color: white;
+}
